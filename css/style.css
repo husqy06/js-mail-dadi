@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body {
+    background-color: gray;
+}
+.wraper {
+    margin: 10% auto;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+.dado-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.dado {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    border-radius: 30px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin: 20px 0;
+}
+.dado-row {
+    display: flex;
+    justify-content: space-around;
+}
+#result {
+    margin: 50px auto;
+}
+.pallino {
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 50%;
+}
+button {
+    width: 50px;
+    margin: 40px auto;
+    padding: 5px;
+    border: 2px solid red;
+    border-radius: 5px;
+    color: red;
+    cursor: pointer;
+    font-size: 17px;
+}

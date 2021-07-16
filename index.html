@@ -4,9 +4,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>js-mail-dadi</title>
 </head>
 <body>
+    <div class="wraper">
+        <div class="container">
+            <div class="dado-container">
+                <h2>Il tuo dado</h2>
+                <div class="dado">
+                    <div class="dado-row" id="caio">
+                        <div id="pallinou1" class="pallino"></div>
+                        <div id="pallinou2" class="pallino"></div>
+                    </div>
+                    <div class="dado-row">
+                        <div id="pallinou3" class="pallino"></div>
+                        <div id="pallinou4" class="pallino"></div>
+                    </div>
+                    <div class="dado-row">
+                        <div id="pallinou5" class="pallino"></div>
+                        <div id="pallinou6" class="pallino"></div>
+                    </div>
+                </div>
+                <h2 id="resultuser"></h2>
+            </div>
+    
+            <div class="dado-container">
+                <h2>Dado avversario</h2>
+                <div class="dado">
+                    <div class="dado-row" id="caio">
+                        <div id="pallinop1" class="pallino"></div>
+                        <div id="pallinop2" class="pallino"></div>
+                    </div>
+                    <div class="dado-row">
+                        <div id="pallinop3" class="pallino"></div>
+                        <div id="pallinop4" class="pallino"></div>
+                    </div>
+                    <div class="dado-row">
+                        <div id="pallinop5" class="pallino"></div>
+                        <div id="pallinop6" class="pallino"></div>
+                    </div>
+                </div>
+                <h2 id="resultpc"></h2>
+            </div>
+        </div>
+        <h1 id="result"></h1>
+        <button onclick="game()">Play</button>
+
+    </div>
 
     <script src="js/main.js"></script>
 </body>
