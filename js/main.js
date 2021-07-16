@@ -12,14 +12,21 @@ var myDatabase =
 console.log(myDatabase);
 
 // chiedo mail all'utente
+var boolean = 0;
 
-var usermail = prompt("Inserire la proria mail")
+var usermail = prompt("Inserire la proria email");
 
 // controllo se la mail e' salvata nell' array
 
 for (var i = 0; i < myDatabase.length; i++) {
-    if (usermail == myDatabase[i])
+    if (usermail == myDatabase[i]) {
+        boolean ++;
+    }
+}
+
+if (boolean == 1) {
     alert("Email accettata");
-    else 
-    alert("Email non riconosciuta si prega di reggistrarsi");
+}
+else {
+    alert("Registrarsi prima di procedere");
 }
